@@ -1,0 +1,150 @@
+.loginscreen
+{
+    /* border: 1px solid red; */
+    position: relative;
+    height: 100%;
+    background: url("https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png" ) center no-repeat;
+    background-size: cover;
+}
+
+.loginscreen_logo
+{
+    /* border: 1px solid red; */
+    position: absolute;
+    left:0;
+    width: 150px;
+
+    object-fit: contain;
+    /* padding-left: 2%; */
+    padding-left: 20px;
+}
+.loginscreen_button
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color:white ;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+}
+
+/*  SEE EARLIER WHEN WE DIDNT HAVE DIV CONTAINING THIS CLASS, WE DIDNT GET THE BACKGROUND IMAGE BUT NOW AFTER THIS WE GET BCOZ
+ height property of the .loginscreen class was set to 100%, but since there was no parent container with a specified height, it resulted in the div element collapsing to a height of 0. Therefore, the background image was not visible. 
+NOW WHEN WE GAVE another div with class loginscreen_gradient now 
+IF WE GAVE IT height 100% then even now wewouldnt have gotten any image
+the reason being the same as above
+but when we give it height=100vh then size of container increases
+
+
+IF U HAD JUST CHANGED height from 100% to 100vh in .loginscreen even then u would have got  the background image
+ */
+
+/* 
+ the reason you were not getting the background image initially might be due to the lack of content inside the .loginscreen div. The .loginscreen_gradient div you added later helped bring the image into view. Here's what happened:
+
+ Initially, the .loginscreen div had a height set to 100%, but without any content inside it. As a result, the div had a height of 0, and the background image wasn't visible.
+
+ By adding the .loginscreen_gradient div inside the .loginscreen_background div and giving it a height of 100vh, you effectively provided content that occupies the entire height of the .loginscreen div. This caused the .loginscreen div to expand and display the background image.
+
+The added .loginscreen_gradient div acts as a content placeholder and gives height to the .loginscreen div, allowing the background image to be visible. The width: 100%; and z-index: 1; properties you applied to .loginscreen_xyz ensure that it spans the entire width and is positioned above other elements in the stacking order (if any).
+
+In summary, adding the .loginscreen_gradient div with a height property resolved the issue by providing content and allowing the background image to appear. */
+.loginscreen_gradient 
+{
+    
+    width: 100%; 
+    height: 100vh; 
+    z-index: 1;
+    background: rgba(0,0,0,0.4); /*40%opaque  */
+    /* WITH THIS IT ADDED A BIT OF BLACK SHADE/OVERLAY */
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0, 0, 0,0) 60%,
+        rgba(0,0,0,0.8) 100%
+        );
+        /* WHAT THIS DOES IS THAT IT STARTS FROM BOTTOM TO TOP IT GIVES 80% OPAQUE AT TOP AND AT BOTTOM AND AT 60% 
+        
+        
+            The gradient is like a smooth transition of colors from the bottom to the top.
+    The first color stop is at the bottom of the gradient and has a semi-transparent black color that is 80% opaque. This means it's a somewhat dark color but not completely solid, allowing some of the background to show through.
+    The second color stop is positioned at 60% of the gradient's length. It is fully transparent, meaning it doesn't have any color. This creates a fade-out effect where the gradient becomes gradually more transparent as it progresses towards the middle.
+    The third color stop is at the top of the gradient and has the same semi-transparent black color as the first color stop. It maintains the same level of transparency and darkness as the first color stop.*/
+}
+
+.loginscreen_body h1
+{
+    /* border: 2px solid red; */
+
+    font-size: 3.125rem;
+    font-weight:600;
+    margin-bottom:1.5rem ;
+}
+
+.loginscreen_body h2
+{
+    /* border: 2px solid red; */
+
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom:30px ;
+}
+.loginscreen_body h3
+{
+    /* border: 2px solid red; */
+
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.loginscreen_body
+{
+    position: absolute;
+    top: 20%;
+    bottom: 20px;
+    /* CENTERING IT */
+    left: 0;
+    right: 0;
+    margin:0 auto;
+    text-align: center;
+
+    color: white;
+    z-index:1 ;
+    padding: 20px;
+    /* border: 2px solid green; */
+}
+
+/* same as loginscreen_input form input */
+.loginscreen_input >form> input 
+{
+
+    outline:none;
+    padding: 10px;
+    height: 30px;
+    width: 30%;
+    max-width: 600px;
+    border: none;
+    /* border: 2px solid red; */
+    background-color: #fff;
+}
+
+.loginscreen_getstarted
+{
+    padding-top: 14.91px ;
+    padding-bottom:16.9px ;
+    padding-left: 20px;
+    padding-right:20px ;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-weight: 530;
+    cursor: pointer;
+}
+.loginscreen_input
+{
+    margin: 20px;
+}
