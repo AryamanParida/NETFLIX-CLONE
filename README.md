@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+![2023-07-28 (1)](https://github.com/AryamanParida/VIDEO-STREAMING-WEB-APP/assets/77320949/02b38853-2351-4316-888d-6baf07a817c2)
+![2023-07-28 (2)](https://github.com/AryamanParida/VIDEO-STREAMING-WEB-APP/assets/77320949/b4b6b464-a7c9-4d9f-94f1-1d29d0e6122c)
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
