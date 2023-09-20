@@ -2,13 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-# LANDING PAGE
+## LANDING PAGE
 ![2023-07-28 (1)](https://github.com/AryamanParida/VIDEO-STREAMING-WEB-APP/assets/77320949/02b38853-2351-4316-888d-6baf07a817c2)
 
-# LOGIN PAGE
+## LOGIN PAGE
 ![2023-07-28 (2)](https://github.com/AryamanParida/VIDEO-STREAMING-WEB-APP/assets/77320949/b4b6b464-a7c9-4d9f-94f1-1d29d0e6122c)
 
-# HOMESCREEN
+## HOMESCREEN
 ![Screenshot 2023-09-20 110650](https://github.com/AryamanParida/VIDEO-STREAMING-WEB-APP/assets/77320949/e351ba18-6306-4858-be00-a103c72e026b)
 
 ![2023-09-20](https://github.com/AryamanParida/VIDEO-STREAMING-WEB-APP/assets/77320949/728d1585-82af-4e16-adc2-4969e19035ca)
@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![2023-09-20 (2)](https://github.com/AryamanParida/VIDEO-STREAMING-WEB-APP/assets/77320949/7edbbae2-59a7-4a91-919d-b99b4ce131e8)
 
-# TRAILER FUNCTIONALITY
+## TRAILER FUNCTIONALITY
 ![TEAILER FUNC](https://github.com/AryamanParida/VIDEO-STREAMING-WEB-APP/assets/77320949/2d3a4030-ef12-4827-a739-d2afbc7547a3)
 
 
